@@ -1,4 +1,17 @@
-alert("Hello World");
+let pokemonList = [];
+pokemonList[0] = {
+  name: "Bulbasaur",
+  height: 0.7,
+  types: ["grass", "poison"],
+};
 
-let favoriteFood = "Cheeseburger";
-document.write(favoriteFood);
+pokemonList[1] = {
+  name: "Charmander",
+  height: 0.6,
+  types: ["fire", "speed"],
+};
+pokemonList[2] = {
+  name: "Squirtle",
+  height: 0.5,
+  types: ["water", "speed"],
+};
