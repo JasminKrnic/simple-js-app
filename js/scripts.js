@@ -35,6 +35,20 @@ for (let i = 0; i < pokemonList.length; i++) {
 //New loop with conditional
 for (let i = 0; i < pokemonList.length; i++) {
   if (pokemonList[i].height > 1) {
-    document.write(pokemonList[i].name + " wow that is Big");
+    document.write(pokemonList[i].name + " wow that is Big" + "<br>");
   }
 }
+
+//forEach loop
+pokemonList.forEach(function (name) {
+  document.write(
+    name.name +
+      " " +
+      "height: " +
+      name.height +
+      " " +
+      " types: " +
+      name.types +
+      "<br>"
+  );
+});
