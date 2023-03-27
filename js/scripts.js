@@ -1,4 +1,4 @@
-let pokemonList = [];
+/*let pokemonList = [];
 pokemonList = [
   {
     name: "Bulbasaur",
@@ -51,10 +51,10 @@ pokemonList.forEach(function (name) {
       name.types +
       "<br>"
   );
-});
+});*/
 
 //IIFE applied
-(function () {
+/*(function () {
   let pokemonList = [
     {
       name: "Bulbasaur",
@@ -72,7 +72,7 @@ pokemonList.forEach(function (name) {
       types: ["water", "speed"],
     },
   ];
-})();
+})();*/
 //assigning IIFE to variable
 let pokemonRepository = (function () {
   let pokemonList = [
@@ -101,3 +101,9 @@ let pokemonRepository = (function () {
     },
   };
 })();
+
+pokemonRepository.getAll().forEach(function (pokemon) {
+  document.write("<p>" + "Name: " + pokemon.name + "</p>");
+  document.write("<p>" + "Height: " + pokemon.height + "</p>");
+  document.write("<p>" + "Types: " + pokemon.types + "</p>");
+});
