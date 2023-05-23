@@ -15,7 +15,6 @@
   color: black;
   border: 2px solid #4caf50;
 }
-
 .modal-is-visible {
   position: fixed;
   padding: 20px;
@@ -43,4 +42,24 @@
 
 .footer-link {
   margin-left: 42%;
+}
+
+.modal-content {
+  margin: auto;
+  display: inline-block;
+  box-sizing: border-box;
+  background: #fff;
+  padding: 15px;
+  width: 100%;
+  max-width: 700px;
+  text-align: left;
+}
+
+.modal-close {
+  float: right;
+
+  border: 0;
+  background: none;
+  color: #777;
+  text-decoration: underline;
 }
