@@ -18,25 +18,39 @@
       <a class="navbar-brand" href="#"></a>
     </nav>
     <h1>POKEDEX</h1>
+
     <ul class="pokemon-list"></ul>
     <div
-      id="modal-container"
-      class="modal"
+      class="modal fade show"
+      id="exampleModal"
       tabindex="-1"
       role="dialog"
-      aria-labelledby="modal-title"
+      aria-labelledby="exampleModalLabel"
       aria-hidden="true"
     >
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title"></h5>
-            <div id="button-container"></div>
+            <h4 class="modal-title" id="exampleModalLabel">Modal title</h4>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
           </div>
           <div class="modal-body">
-            <p class="image-container"></p>
-            <p class="height"></p>
+            <img
+              class="img-fluid pokemon-image"
+              width="150"
+              height="150"
+              alt="image of a Pokemon"
+            />
+            <p class="pokemon-height"></p>
           </div>
+          <div class="modal-footer"></div>
         </div>
       </div>
     </div>
