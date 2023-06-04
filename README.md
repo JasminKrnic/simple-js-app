@@ -7,7 +7,7 @@ Features
 Displays a list of the first 151 Pokémon with their names
 Allows users to click on a Pokémon to view details such as their picture and height
 Implements responsive design using Bootstrap
-Technologies Used
+
 The following technologies were used to develop this app:
 
 JavaScript - used primarily for implementing app logic
